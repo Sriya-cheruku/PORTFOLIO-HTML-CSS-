@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+  <img src="/images/image-2.jpeg" class="logo">
+
+  <ul id="sidemenu">
+    <li><a href="#header">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#services">SERVICES</a></li>
+    <li><a href="#mywork">MY WORK</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+  </ul>
+
+  <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+        <div class="header-text">
+        <p>Web developer</p>
+        <h1>Hi ,I'm <span>Sriya</span> <br>
+           from Hyderabad</h1>
+           
+           </div>
+
+
+
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/image-8.jpeg" alt="images">
+        </div>
+        <div class="about-col-2"><br>
+          <h1>
+            About me
+          </h1><br><br>
+          <p>
+            Hi, I'm Sriya, a passionate web developer specializing in creating 
+beautiful and functional websites. I love turning ideas into reality through 
+clean code and creative design.
+
+I have experience in HTML, CSS, JavaScript, and modern web frameworks. 
+When I'm not coding, you can find me learning new technologies and working 
+on exciting projects.<br>
+           </p>
+           <div class="tab-titles">
+             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+             <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+             <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+        <li><span>Web development</span><br>Web App development</li>
+        <li><span>App development</span><br>Building Android IOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+      <li><span>2027-current</span><br>UI/UX Design training at Nextwebworks</li>
+        <li><span>2025-2027</span><br>Team lead at startup</li>
+        <li><span>2023-2025</span><br>Internship at MYOXR</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+        <li><span>2021</span><br>UI/UX Design training at Nextwebworks</li>
+        <li><span>2022</span><br>Web development training</li>
+        <li><span>2014</span><br>B.tech at GNITC(IT BRANCH)</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------------------SERVICES------------------- -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-titles">My services</h1>
+    <div class="services-list">
+      <div>
+        <h2>Web Design</h2>
+        <p>Web Design
+Building attractive websites with clean layouts, smooth navigation, 
+and responsive design for all screen sizes.</p>
+<a href="#">Learn more</a>
+      </div>
+      <div>
+        <h2>UI/UX Design</h2>
+        <p>Web Design
+Building attractive websites with clean layouts, smooth navigation, 
+and responsive design for all screen sizes.</p>
+<a href="#">Learn more</a>
+      </div>
+      <div>
+        <h2>APP Design</h2>
+        <p>Web Design
+Building attractive websites with clean layouts, smooth navigation, 
+and responsive design for all screen sizes.</p>
+<a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ------------------mywork------------- -->
+ <div id="mywork">
+<div class="container">
+  <h1 class="sub-title">My Work</h1>
+  <div class="work-list">
+    <div class="work">
+      <img src="images/work-1.png">
+      <div class="layer">
+        <h3>Social Media App</h3>
+        <p>The app connects you to the talented people around the world.
+          Download it from play store</p>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/work-2.png">
+       <div class="layer">
+        <h3>Music App</h3>
+        <p>The app connects you to the talented people around the world.
+          Download it from play store</p>
+      </div>
+    </div>
+    <div class="work">
+      <img src="images/work-3.png">
+       <div class="layer">
+        <h3>Online Shopping  App</h3>
+        <p>The app connects you to the talented people around the world.
+          Download it from play store</p>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="btn">See more</a>
+</div>
+</div>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+       <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+<p><i class="fa-solid fa-phone"></i> 0123456789</p>
+        <div class="social-icons">
+         <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+<a href=""><i class="fa-brands fa-twitter"></i></a>
+<a href=""><i class="fa-brands fa-instagram"></i></a>
+<a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="" class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required> 
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button> 
+          <p id="msg"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>
+      © 2026 Sriya. Designed & Developed <i class="fa-sharp fa-solid fa-heart"></i> by Sriya.
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+    
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link")
+     document.getElementById(tabname).classList.add("active-tab")    
+    }
+ 
+  </script>
+  <script>
+    var sidemenu=document.getElementById("sidemenu")
+
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+  </script>
+  <script>
+function showMessage(e){
+  e.preventDefault(); // stop page refresh
+
+  document.getElementById("msg").innerHTML = "✅ Message sent successfully!";
+}
+</script>
+  
+
+</body>
+</html>
